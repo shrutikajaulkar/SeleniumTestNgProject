@@ -28,8 +28,8 @@ public class VerifyRegiestrationTestCases  extends BaseClass{
 		
 //		assertion
 //		assertEquals(actual result, expected result)
-		SoftAssert sa=new SoftAssert();
-		sa.assertEquals(0, 0);
+//		SoftAssert sa=new SoftAssert();
+//		sa.assertEquals(0, 0);
 		
 		
 		
