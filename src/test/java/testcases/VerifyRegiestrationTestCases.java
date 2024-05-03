@@ -3,6 +3,7 @@ package testcases;
 import java.io.IOException;
 
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import pageObjectmodel.RegiestrationPageobject;
 import resources.BaseClass;
@@ -25,6 +26,10 @@ public class VerifyRegiestrationTestCases  extends BaseClass{
 		rpo.ClickOnPolicy().click();
 		rpo.ClickOnContinue().click();
 		
+//		assertion
+//		assertEquals(actual result, expected result)
+		SoftAssert sa=new SoftAssert();
+		sa.assertEquals(0, 0);
 		
 		
 		
